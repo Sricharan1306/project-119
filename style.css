@@ -1,0 +1,29 @@
+body{
+   animation-name:colour;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+
+   
+}
+@keyframes colour{
+    0%{background-color: aqua;}
+    10%{background-color: cadetblue;}
+    20%{background-color: chartreuse;}
+    30%{background-color: darkviolet;}
+    40%{background-color: gold;}
+    50%{background-color: indianred;}
+    60%{background-color: deeppink;}
+    70%{background-color: lightgreen;}
+    80%{background-color: mediumslateblue;}
+    90%{background-color: red;}
+    100%{background-color: slategray;}
+}
+canvas{
+    background-color: black;
+}
+#score,#get4{
+    float: left;
+}
+#timer{
+    float: right;
+}
